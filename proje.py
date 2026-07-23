@@ -1,4 +1,4 @@
-"""Playwright Final Ödevi — Web Otomasyon Botu.
+"""Web Otomasyon Botu (Playwright).
 
 Belirtilen web sitesine gider, sayfa başlığını okur ve tam sayfa ekran görüntüsü alır.
 

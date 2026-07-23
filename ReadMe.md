@@ -1,4 +1,4 @@
-# Playwright Final Projesi
+# Playwright Web Otomasyon Botu
 
 Python ve Playwright kütüphanesi kullanılarak geliştirilmiş bir web otomasyon botu.
 
