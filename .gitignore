@@ -1,0 +1,8 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Playwright çıktıları (isteğe bağlı: örnek görüntüyü commit'lemek isterseniz kaldırın)
+# bergama_myo.png
