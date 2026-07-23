@@ -12,6 +12,13 @@ import sys
 
 from playwright.sync_api import sync_playwright
 
+# Windows konsolu (cp1252) emoji/Türkçe karakterlerde hata verebilir; çıktıyı UTF-8'e sabitle.
+try:
+    sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
+except (AttributeError, ValueError):
+    pass
+
 TARGET_URL = os.getenv("TARGET_URL", "https://bergamamyo.ege.edu.tr/")
 OUTPUT_PATH = os.getenv("OUTPUT_PATH", "bergama_myo.png")
 
