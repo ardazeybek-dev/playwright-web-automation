@@ -1,6 +1,6 @@
 # Playwright Web Automation Bot
 
-**&#9654; [Project page, live console replay and the screenshot it produced](https://playwright-web-automation.github.io/)**
+**&#9654; [Project page, live console replay and the screenshot it produced](https://ardazeybek-dev.github.io/playwright-web-automation/)**
 
 A web automation bot built with Python and the Playwright library.
 
